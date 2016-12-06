@@ -1,7 +1,15 @@
 'use strict'
 
-const switchPrompt = require('./index')
+const switchPrompt = require('.')
 
-switchPrompt('Send anonymous usage data?', 'yes', 'no', true)
-.on('abort', (v) => console.log(`Aborted with ${v}.`))
-.on('submit', (v) => console.log(`Submitted with ${v}.`))
+const prompt = (...args) => new Promise((yay, nay) => {
+	switchPrompt(...args)
+	.on('submit', yay)
+	.on('abort', nay)
+})
+
+Promise.resolve()
+.then(() => prompt('Agree with the terms & conditions?', 'yes', 'no', true))
+.then(() => prompt('Dark Mode', 'on', 'off', false))
+.then(() => prompt('Beta Program', 'active', 'inactive', false))
+.then(() => prompt('Launch nuclear missiles?', 'Yes', 'Remind me in 5m', true))

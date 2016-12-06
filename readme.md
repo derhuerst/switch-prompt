@@ -2,6 +2,8 @@
 
 **A CLI prompt with an [iOS-style on/off switch](https://developer.apple.com/ios/human-interface-guidelines/ui-controls/switches/).**
 
+[![asciicast](https://asciinema.org/a/95216.png)](https://asciinema.org/a/95216)
+
 [![npm version](https://img.shields.io/npm/v/switch-prompt.svg)](https://www.npmjs.com/package/switch-prompt)
 [![dependency status](https://img.shields.io/david/derhuerst/switch-prompt.svg)](https://david-dm.org/derhuerst/switch-prompt)
 ![ISC-licensed](https://img.shields.io/github/license/derhuerst/switch-prompt.svg)
