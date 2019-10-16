@@ -1,7 +1,7 @@
 {
 	"name":        "switch-prompt",
 	"description": "A CLI prompt with an iOS-style on/off switch.",
-	"version":     "0.1.0",
+	"version":     "0.1.1",
 	"main":        "index.js",
 	"files":       ["index.js"],
 	"keywords":    ["switch", "toggle", "ui", "interactive", "prompt", "command line", "cli", "terminal", "readline"],

@@ -1,12 +1,17 @@
 # switch-prompt
 
-**A CLI prompt with an [iOS-style on/off switch](https://developer.apple.com/ios/human-interface-guidelines/ui-controls/switches/).**
+**Deprecated. Use the [confirm prompt](https://github.com/enquirer/enquirer#confirm-prompt) or [select prompt](https://github.com/enquirer/enquirer#select-prompt) from [`enquirer`](https://github.com/enquirer/enquirer).**
+
+---
+
+A CLI prompt with an [iOS-style on/off switch](https://developer.apple.com/ios/human-interface-guidelines/ui-controls/switches/).
 
 [![asciicast](https://asciinema.org/a/95216.png)](https://asciinema.org/a/95216)
 
 [![npm version](https://img.shields.io/npm/v/switch-prompt.svg)](https://www.npmjs.com/package/switch-prompt)
 [![dependency status](https://img.shields.io/david/derhuerst/switch-prompt.svg)](https://david-dm.org/derhuerst/switch-prompt)
 ![ISC-licensed](https://img.shields.io/github/license/derhuerst/switch-prompt.svg)
+[![chat on gitter](https://badges.gitter.im/derhuerst.svg)](https://gitter.im/derhuerst)
 
 *switch-prompt* uses [*cli-styles*](https://github.com/derhuerst/cli-styles) and [*prompt-skeleton*](https://github.com/derhuerst/prompt-skeleton) to have a look & feel consistent with [other prompts](https://github.com/derhuerst/prompt-skeleton#prompts-using-prompt-skeleton).
 
